@@ -1,0 +1,552 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(../image/backgroundanime.jpg);
+    background-attachment: fixed;
+    font-family:'Mitr', sans-serif;
+    margin: 0 ;
+  }
+  h1#contact{
+    color: white;
+    background-color: #3f5bae;
+    box-sizing: border-box;
+    padding: 12px 14px;
+
+  }
+  p#topic{
+    background-color: #feeb10;
+    opacity: 0.8;
+    padding: 20px 5px 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    background-size: 5px;
+    color: #000000 ;
+  }
+
+  ul {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    background-color : #feeb10;
+  }
+  li {
+    float: left;
+    border-right:1px solid #feeb10;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    font-weight: bold;
+    display: block;
+    color: #000000;
+    font-size: large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #3f5bae;
+      color: #fff;
+  }
+
+  .active {
+       background-color: #82a6e0;
+       color: #fff;
+  }
+  /* Style the header */
+  .header {
+    background-color: #3f5bae;
+    text-align: center;
+  }
+  .header#contact {
+    background-color: #3f5bae;
+    text-align: right;
+  }
+
+  .topnavigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  #mainpagenavigator{
+    margin-left: 500px;
+  }
+  .bottomnavigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+/*
+.column {
+float: left;
+width: 33.33%;
+padding: 15px;
+border-left: 10px solid #3f5bae  ;
+border-top: 10px solid #3f5bae ;
+}
+*/
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+div.gallery {
+/*margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+background-color: white;*/
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+transition: width 1.5s;
+border-radius: 20px;
+
+}
+div.gallery img {
+width: 100%;
+height: auto;
+border-radius: 20px 20px 0px 0px;
+
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+font-weight: bold;
+background-color: white;
+border-radius: 0px 0px 20px 20px ;
+}
+div.gallery:hover {
+/*border: 1px solid #777;*/
+background-color: #82a6e0;
+border: 5px solid #3f5bae  ;
+opacity: 0.8;
+width: 500px;
+background-color: #feeb10;
+}
+.content{
+color: black;
+text-align: center;
+background-color:rgba(255, 255, 255, .9);
+padding: 4px;
+border: 5px solid #3f5bae  ;
+margin-bottom : 100px;
+}
+.info{
+color: black;
+text-align: center;
+padding: 4px;
+padding-top: 30px;
+margin-bottom : 60px;
+border-top:5px solid #82a6e0  ;
+overflow: auto;
+}
+#anime-imply {
+padding: 100px ;
+background-size:auto;
+color: #feeb10 ;
+text-shadow: 2px 2px  black;
+font-size: 4em;
+text-align: center;
+
+}
+#anime-mean {
+/*background: url(../image/stardew.png) left top no-repeat ;*/
+background-color: #feeb10;
+padding: 70px ;
+background-size:auto;
+color: #000000 ;
+border: 5px solid #3f5bae  ;
+opacity: 0.9;
+font-size: 1.75em;
+text-indent: 43%;
+width: 90%;
+margin-left: 70px;
+margin-bottom: 50px;
+border-radius: 20px;
+}
+.button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 24px;
+margin: 4px 2px;
+cursor: pointer;
+font-family:'Mitr', sans-serif;
+border-radius: 4px;
+transition: all 0.5s;
+margin-bottom: -10px;
+}
+
+.button1 {width: 49.5%;}
+.button2 {width: 49.5%;}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+.button span.previous:after {
+content: '\00ab';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+table{
+background-color: white;
+border: 3px solid black;
+
+}
+tr{
+border: 3px solid black;
+padding: 5px;
+}
+th{
+border: 3px solid black;
+padding: 5px;
+}
+td{
+border: 3px solid black;
+padding: 5px;
+}
+th#caption{
+background-color: #feeb10;
+padding: 20px;
+font-size: 40px;
+}
+th#foottable{
+background-color: #c9e4fe;
+padding: 20px;
+font-size: 40px;
+}
+th#monday{
+background-color: rgb(255, 238, 0);
+}
+.monday{
+background-color: rgb(251, 255, 5);
+font-size: 1.3em;
+padding: 25px;
+}
+th#tuesday{
+background-color: rgb(255, 166, 181);
+}
+.tuesday{
+background-color: rgba(255, 214, 221, 0.979);
+font-size: 1.3em;
+padding: 25px;
+}
+th#wednesday{
+background-color: rgb(3, 161, 3);
+}
+.wednesday{
+background-color: rgb(94, 201, 6);
+font-size: 1.3em;
+padding: 25px;
+}
+th#thursday{
+background-color: rgb(255, 166, 0);
+}
+.thursday{
+background-color: rgb(255, 202, 104);
+font-size: 1.3em;
+padding: 25px;
+}
+th#friday{
+background-color: cyan;
+}
+.friday{
+background-color: rgb(115, 248, 248);
+font-size: 1.3em;
+padding: 25px;
+}
+th#saturday{
+background-color: purple;
+}
+.saturday{
+background-color: rgb(133, 99, 133);
+font-size: 1.3em;
+padding: 25px;
+}
+th#sunday{
+background-color: rgb(255, 29, 29);
+}
+.sunday{
+background-color: rgb(255, 138, 138);
+font-size: 1.3em;
+padding: 25px;
+}
+
+.table2 {
+margin: 30px 80px;
+border-collapse: collapse;
+border-spacing: 0;
+width: 90%;
+border: 1px solid #ae943f;
+
+}
+.tr2{
+text-align: center;
+padding: 15px;
+background-color: rgb(250, 212, 44);
+}
+.th2muse{
+text-align: center;
+padding: 10px;
+background-color: #feeb10;
+}
+
+.td2muse{
+text-align: center;
+padding: 10px;
+/*background-color: #feeb10;*/
+background-color: white;
+
+}
+.muse{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #fee610;
+border-radius: 20px;
+}
+.th2bilibili {
+text-align: center;
+padding: 10px;
+background-color: rgb(251, 255, 5);
+}
+.bilibili {
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgb(38, 245, 252);
+border-radius: 20px;
+color: white;
+}
+
+.td2bilibili {
+text-align: center;
+padding: 10px;
+/*background-color: rgb(251, 255, 5);*/
+background-color: white;
+}
+.th2iqiyi{
+text-align: center;
+padding: 10px;
+background-color: rgb(255, 160, 176);
+}.iqiyi{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgba(27, 247, 45, 0.938);
+border-radius: 20px;
+color: black;
+
+}
+
+.td2iqiyi{
+text-align: center;
+padding: 10px;
+/*background-color: rgb(255, 160, 176);*/
+background-color: white;
+}
+.th2aisplay {
+text-align: center;
+padding: 10px;
+background-color: rgba(255, 214, 221, 0.979);
+}
+.aisplay {
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgba(0, 0, 0, 0.938);
+border-radius: 20px;
+color: rgb(80, 199, 80);
+}
+.td2aisplay {
+text-align: center;
+padding: 10px;
+/*background-color: rgba(255, 214, 221, 0.979);*/
+background-color: white;
+}
+.th2netflix{
+text-align: center;
+padding: 10px;
+background-color: rgb(70, 160, 70);
+}
+.netflix{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgba(0, 0, 0, 0.938);
+border-radius: 20px;
+color: red;
+}
+.td2netflix{
+text-align: center;
+padding: 10px;
+/*background-color: rgb(70, 160, 70);*/
+background-color: white;
+}
+.th2viu {
+text-align: center;
+padding: 10px;
+background-color: rgb(152, 230, 159);
+}
+.viu {
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #F2B705;
+border-radius: 20px;
+color: white;
+}
+.td2viu {
+text-align: center;
+padding: 10px;
+/*background-color: rgb(152, 230, 159);*/
+background-color: white;
+}
+.th2wetv{
+text-align: center;
+padding: 10px;
+background-color: #62b2fc;
+}
+.wetv{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #4e8afa;
+border-radius: 20px;
+color: white;
+}
+.td2wetv{
+text-align: center;
+padding: 10px;
+/*background-color: #62b2fc;*/
+background-color: white;
+}
+.th2trueid {
+text-align: center;
+padding: 10px;
+background-color: #9aceff;
+}
+.trueid {
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #e7167f;
+border-radius: 20px;
+color: white;
+}
+.td2trueid {
+text-align: center;
+padding: 10px;
+/*background-color: #9aceff;*/
+background-color: white;
+}
+.th2flixer {
+text-align: center;
+padding: 10px;
+background-color: #b59aff;
+}
+.flixer {
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: black;
+border-radius: 20px;
+color: white;
+}
+.td2flixer {
+text-align: center;
+padding: 10px;
+/*background-color: #b59aff;*/
+background-color: white;
+}
+.th2pops {
+text-align: center;
+padding: 10px;
+background-color: #c6bae7;
+}
+.td2pops {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.pops {
+text-align: center;
+padding: 10px;
+background-color: #c6bae7;
+border-radius: 20px;
+}
+
+.th2, .td2 {
+text-align: center;
+padding: 15px;
+}
+.th3 {
+text-align: center;
+padding: 15px;
+background-color: white;
+}
+
+.th2:first-child, td2:first-child {
+text-align: left;
+}
+
+.tr2:nth-child(even) {
+background-color: #f2f2f2
+}
+
+.fa-check {
+color: green;
+text-align: center;
+}
+
+.fa-remove {
+color: red;
+text-align: center;
+}
+a{
+text-decoration: none;
+}
+img{
+border-radius: 20px;
+}
+#topbarimage{
+margin: 30px 30px 30px 30px;
+width: 95%;
+border-radius: 20px;
+}

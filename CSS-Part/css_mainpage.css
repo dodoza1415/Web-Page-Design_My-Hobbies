@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #fff;
+    font-family:'Mitr', sans-serif;
+    margin: 0 ;
+  }
+  
+  img#logo_small{
+    float: right;
+  }
+
+  ul {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    background-color : #feeb10;
+  }
+  li {
+    float: left;
+    border-right:1px solid #feeb10;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    font-weight: bold;
+    display: block;
+    color: #000000;
+    font-size: large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #3f5bae;
+      color: #fff;
+  }
+
+  .active {
+       background-color: #82a6e0;
+       color: #fff;
+  }
+  /* Style the header */
+  .header {
+    background-color: #3f5bae;
+    text-align: center;
+  }
+  .footer {
+    background-color: #3f5bae;
+    text-align: center;
+    margin-top: 400px;
+    clear: left;
+  }
+  .topnavigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  #mainpagenavigator{
+    margin-left: 500px;
+  }
+  .bottomnavigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+    clear: left;
+  }
+
+/*
+.column {
+float: left;
+width: 33.33%;
+padding: 15px;
+border-left: 10px solid #3f5bae  ;
+border-top: 10px solid #3f5bae ;
+}
+*//*
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+*/
+div.gallery {
+margin: 7px;
+border: 1px solid #ccc;
+float: left;
+width: 450px;
+border-radius: 20px;
+transition: width 1.5s;
+}
+
+div.gallery:hover {
+/*border: 1px solid #777;*/
+background-color: #feeb10;
+border: 5px solid #3f5bae  ;
+width: 500px;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+border-radius: 20px;
+border-radius: 20px 20px 0px 0px;
+}
+
+
+div.desc {
+padding: 15px;
+text-align: center;
+font-weight: bold;
+border-radius: 0px 0px 20px 20px;
+}
+.content{
+color: black;
+text-align: center;
+background-color:#feeb10 ;
+padding: 4px;
+border-top: 5px solid #3f5bae  ;
+border-bottom: 5px solid #3f5bae  ;
+clear: left;
+margin-bottom: 25px;
+}
+
+/*#imply {
+/*background: url(../image/stardew.png) left top no-repeat ;
+background-color: #feeb10;
+padding: 100px;
+background-size:auto;
+color: #000000 ;
+border-top: 5px solid #3f5bae  ;
+border-bottom: 5px solid #3f5bae  ;
+clear: left;
+}*/
+#imply {
+float: left;
+padding: 20px;
+margin-left: 50px;
+border-left: 5px solid #3f5bae;
+width: 60%;
+margin-top: 100px;
+}
+div.topgallery {
+margin: 7px;
+border: 1px solid #ccc;
+width: 520px;
+border-radius: 20px;
+margin-left: 200px;
+margin-bottom: 30px;
+transition: width 1.5s;
+float: left;
+font-size: 2em;
+}
+div.topgallery1 {
+margin: 7px;
+border: 1px solid #ccc;
+width: 520px;
+border-radius: 20px;
+margin-left: 50px;
+transition: width 1.5s;
+float: left;
+font-size: 2em;
+}
+div.topgallery1:hover {
+/*border: 1px solid #777;*/
+background-color: #feeb10;
+border: 5px solid #3f5bae  ;
+width: 530px;
+}
+
+
+div.topgallery:hover {
+/*border: 1px solid #777;*/
+background-color: #feeb10;
+border: 5px solid #3f5bae  ;
+width: 530px;
+}
+
+div.topgallery img {
+width: 100%;
+height: auto;
+border-radius: 20px 20px 0px 0px ;
+}
+div.topgallery1 img {
+width: 100%;
+height: auto;
+border-radius: 20px 20px 0px 0px ;
+}
+div.topdesc {
+padding: 10px;
+text-align: center;
+font-weight: bold;
+border-radius: 0px 0px 20px 20px;
+
+}
+div.topdesc1 {
+padding: 10px;
+text-align: center;
+font-weight: bold;
+border-radius: 0px 0px 20px 20px;
+
+}
+.fa {
+padding: 20px 253px;
+font-size: 30px;
+width: 70px;
+height: 75px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+background-color: #3f5bae ;
+transition: all 0.5s;
+margin-top: -15px;
+}
+.fa span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+
+}
+
+.fa span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+.fa:hover span {
+padding-right: 25px;
+}
+
+.fa:hover span:after {
+opacity: 1;
+right: 0;
+}
+.fa-facebook {
+padding-top: px;
+background: #125688;
+color: white;
+margin-left: -24px;
+}
+.fa-twitter {
+padding-top: px;
+background: #125688;
+color: white;
+margin-left: -20px;
+}
+.fa-instagram {
+padding-top: px;
+background: #125688;
+color: white;
+margin-left: -20px;
+}
+#topbarimage{
+width: 100%;
+height: 50%;
+}
+a{
+text-decoration: none;
+}
