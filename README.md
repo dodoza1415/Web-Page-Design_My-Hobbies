@@ -103,7 +103,7 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-content-5.png" align="center">
 
-* **[ Footer ]** - `Previous Page Button` คลิกเพื่อกลับไปยังหน้าก่อนหน้าคือ หน้าหลักของเนื้อหาประเภท อนิเมะ และ `Next Page Button` คลิกเพื่อไปยังหน้าถัดไปคือ เนื้อหารีวิวในหมวดหม฿่เดียวกัน , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
+* **[ Footer ]** - `Previous Page Button` คลิกเพื่อกลับไปยังหน้าก่อนหน้าคือ หน้าหลักของเนื้อหาประเภท อนิเมะ และ `Next Page Button` คลิกเพื่อไปยังหน้าถัดไปคือ เนื้อหารีวิวในหมวดหมู่เดียวกัน , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
 
 <img src="./IMG/anime-content-nav.png" align="center">
 
@@ -144,6 +144,33 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/game-nav-bar.png" align="center">
 
+> **3.1 Game Content Page - หน้าแสดงรายละเอียดของเนื้อหาประเภทเกม**
+
+สามารถคลิกผ่านหน้าหลักของเนื้อหาประเภท `เกม` หรือ ในส่วน All Content ที่หน้า `Home` ได้เพื่อมายังหน้านี้ ซึ่งเป็นหน้าที่เกี่ยวกับรายละเอียดการ รีวิวเนื้อหาที่เป็นประเภทเกม ประกอบไปด้วย
+
+* **[ Header ]** - `Banner` ของตัวเว็บไซต์ และ `Navigation Bar` โดยจะกำหนดไว้ที่หน้า เกม ซึ่งเป็นหน้าหลักต่างหลักของเนื้อหาในปัจจุบัน , สามารถใช้เปลี่ยนไปยังหน้าอื่นๆ และกลับมายังหน้า เกม ได้
+
+<img src="./IMG/game-content-1.png" align="center">
+
+* **`Game Review`** : เป็นส่วนที่เรียกว่าเป็น `Content Body` หรือ ส่วนของเนื้อหาที่ต้องการนำเสนอในหน้านี้ ประกอบไปด้วย หัวข้อที่นำเสนอ , วันที่เขียนรีวิวนี้ขึ้น , รูปภาพประกอบ , ข้อมูลพื้นฐานเกี่ยวกับตัวเกมที่นำมารีวิว , โลโก้ของสตูดิโอที่ผลิต , ตารางนำเสนอ platform ที่ตัวเกมมีการ port ให้สามารถเล่นได้ และ เข้าสู่เนื้อหาการรีวิว พร้อมรูปภาพประกอบคำอธิบาย
+
+<img src="./IMG/game-content-2.png" align="center">
+
+<img src="./IMG/game-content-3.png" align="center">
+
+<img src="./IMG/game-content-4.png" align="center">
+
+<img src="./IMG/game-review-1.png" align="center">
+
+<img src="./IMG/game-review-2.png" align="center">
+
+* **[ Footer ]** - `Previous Page Button` คลิกเพื่อกลับไปยังหน้าก่อนหน้าคือ หน้าหลักของเนื้อหาประเภท เกม และ `Next Page Button` คลิกเพื่อไปยังหน้าถัดไปคือ หน้าหลักของเนื้อหาประเภท อนิเมะ , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
+
+<img src="./IMG/game-content-nav.png" align="center">
+
+* **[ Footer ]** - `Related Post` เป็นการเพิ่มความสะดวกให้แก่ผู้ใช้งาน เพิ่มทางเลือกในการเข้าถึงโดยนำลิงก์ที่ใช้ในการเข้าถึงรีวิวอื่นๆมาแปะไว้ด้านล่างของ `Navigation Bar`
+
+<img src="./IMG/game-content-related.png" align="center">
 
 > [!NOTE]
 > Testing the software via Live Server, not deploying the project for public access.
