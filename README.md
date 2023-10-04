@@ -26,11 +26,11 @@ A website that provides information about games and anime that I find interestin
     
     <img src="./IMG/home-1-page.png" align="center">
     
-  * `About Us` : ให้ข้อมูลเกี่ยวกับวัตถุประสงค์ในการพัฒนาเว็บไซต์นี้ขึ้น
+  * **[ Body ]** - `About Us` : ให้ข้อมูลเกี่ยวกับวัตถุประสงค์ในการพัฒนาเว็บไซต์นี้ขึ้น
 
     <img src="./IMG/home-2-page.png" align="center">
     
-  * `Content Categories` : สามารถเลือกประเภทของเนื้อหาที่สนใจได้ โดยการคลิกที่ตัว Card เพื่อพาไปยังหน้าต่างของ Categories นั้นๆ
+  * **[ Body ]** - `Content Categories` : สามารถเลือกประเภทของเนื้อหาที่สนใจได้ โดยการคลิกที่ตัว Card เพื่อพาไปยังหน้าต่างของ Categories นั้นๆ
 
     <img src="./IMG/home-7-categories-none.png" align="center">
 
@@ -38,7 +38,7 @@ A website that provides information about games and anime that I find interestin
     <img src="./IMG/home-3-categories.png" align="center">
     
     
-  * `All Content` : แสดงรายการเนื้อหาทั้งหมดที่มี โดยไม่ได้มีการแยกตามประเภทของเนื้อหา , สามารถเลือกเนื้อหาที่สนใจได้โดยการคลิกที่ตัว Card เพื่อไปยังหน้าต่างของ Content นั้นๆ
+  * **[ Body ]** - `All Content` : แสดงรายการเนื้อหาทั้งหมดที่มี โดยไม่ได้มีการแยกตามประเภทของเนื้อหา , สามารถเลือกเนื้อหาที่สนใจได้โดยการคลิกที่ตัว Card เพื่อไปยังหน้าต่างของ Content นั้นๆ
 
     <img src="./IMG/home-4-content.png" align="center">  
 
@@ -60,11 +60,11 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-1-page.png" align="center">
 
- * `Anime Definition` : ให้ข้อมูลความหมายของ keyword คำว่า "Anime" เพื่อสร้างความเข้าใจที่ตรงกันกับผู้ที่สนใจ
+ * **[ Body ]** - `Anime Definition` : ให้ข้อมูลความหมายของ keyword คำว่า "Anime" เพื่อสร้างความเข้าใจที่ตรงกันกับผู้ที่สนใจ
 
 <img src="./IMG/anime-definition.png" align="center">
 
- * `Table of Content - Anime Info` : ให้ข้อมูลเกี่ยวกับอนิเมะที่น่าสนใจ ซึ่งกำลังฉายอยู่ ณ เวลานั้น (Oct 2021) โดยแบ่ง row ตามวันที่ฉายในสัปดาห์ และตัวข้อมูลจะประกอบไปด้วย รูปหน้าปกของตัวอนิเมะ (Key Visual) , ชื่อเรื่อง , เนื้อหาย่อๆ , จำนวนตอน , ช่องทางการรับชมแบบถูกลิขสิทธิ์ พร้อมลิงค์ไปยังช่องทางดังกล่าว และ วัน-เวลาที่ฉายในทุกๆสัปดาห์ , ลิงค์ไปยัง MAL เป็น reference สำหรับหาข้อมูลเพิ่มเติม
+ * **[ Body ]** - `Table of Content - Anime Info` : ให้ข้อมูลเกี่ยวกับอนิเมะที่น่าสนใจ ซึ่งกำลังฉายอยู่ ณ เวลานั้น (Oct 2021) โดยแบ่ง row ตามวันที่ฉายในสัปดาห์ และตัวข้อมูลจะประกอบไปด้วย รูปหน้าปกของตัวอนิเมะ (Key Visual) , ชื่อเรื่อง , เนื้อหาย่อๆ , จำนวนตอน , ช่องทางการรับชมแบบถูกลิขสิทธิ์ พร้อมลิงค์ไปยังช่องทางดังกล่าว และ วัน-เวลาที่ฉายในทุกๆสัปดาห์ , ลิงค์ไปยัง MAL เป็น reference สำหรับหาข้อมูลเพิ่มเติม
 
 <img src="./IMG/anime-table-1.png" align="center">
 
@@ -72,11 +72,11 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-table-3.png" align="center">
 
- * `Table of Content - Viewing Path` : แสดงช่องทางการชมอนิเมะแบบถูกลิขสิทธิ์หลักๆที่มีในประเทศไทย เพื่อแสดงให้เห็นว่า "อนิเมะ" แต่ละเรื่องที่กล่าวมา มีให้รับชมในช่องทางไหน - ช่องทางไหนไม่มีให้รับชม
+ * **[ Body ]** - `Table of Content - Viewing Path` : แสดงช่องทางการชมอนิเมะแบบถูกลิขสิทธิ์หลักๆที่มีในประเทศไทย เพื่อแสดงให้เห็นว่า "อนิเมะ" แต่ละเรื่องที่กล่าวมา มีให้รับชมในช่องทางไหน - ช่องทางไหนไม่มีให้รับชม
 
 <img src="./IMG/anime-table-path.png" align="center">
 
- * `Content - Anime Review` : แสดงข้อมูลรีวิวทั้งหมดที่มีในหวมหมู่ที่เป็นอนิเมะ สามารถคลิกเพื่อไปยังหน้าต่างที่ให้ข้อมูลรีวิวอนิเมะเรื่องนั้นๆได้
+ * **[ Body ]** - `Content - Anime Review` : แสดงข้อมูลรีวิวทั้งหมดที่มีในหวมหมู่ที่เป็นอนิเมะ สามารถคลิกเพื่อไปยังหน้าต่างที่ให้ข้อมูลรีวิวอนิเมะเรื่องนั้นๆได้
 
 <img src="./IMG/anime-content.png" align="center">
 
@@ -93,7 +93,7 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-content-1.png" align="center">
 
-* `Anime Review` : เป็นส่วนที่เรียกว่าเป็น `Content Body` หรือ ส่วนของเนื้อหาที่ต้องการนำเสนอในหน้านี้ ประกอบไปด้วย หัวข้อที่นำเสนอ , วันที่เขียนรีวิวนี้ขึ้น , รูปภาพประกอบ , ข้อมูลพื้นฐานเกี่ยวกับตัวอนิเมะที่นำมารีวิว , โลโก้ของสตูดิโอที่ผลิต , ตารางนำเสนอช่องทางการรับชมแบบถูกลิขสิทธิ์ และ เข้าสู่เนื้อหาการรีวิว พร้อมรูปภาพประกอบคำอธิบาย
+* **[ Body ]** - `Anime Review` : เป็นส่วนที่เรียกว่าเป็น `Content Body` หรือ ส่วนของเนื้อหาที่ต้องการนำเสนอในหน้านี้ ประกอบไปด้วย หัวข้อที่นำเสนอ , วันที่เขียนรีวิวนี้ขึ้น , รูปภาพประกอบ , ข้อมูลพื้นฐานเกี่ยวกับตัวอนิเมะที่นำมารีวิว , โลโก้ของสตูดิโอที่ผลิต , ตารางนำเสนอช่องทางการรับชมแบบถูกลิขสิทธิ์ และ เข้าสู่เนื้อหาการรีวิว พร้อมรูปภาพประกอบคำอธิบาย
 
 <img src="./IMG/anime-content-2.png" align="center">
 
@@ -121,11 +121,11 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/game-1-page.png" align="center">
 
- * `Game Definition` : ให้ข้อมูลความหมายของ keyword คำว่า "Game" เพื่อสร้างความเข้าใจที่ตรงกันกับผู้ที่สนใจ
+ * **[ Body ]** - `Game Definition` : ให้ข้อมูลความหมายของ keyword คำว่า "Game" เพื่อสร้างความเข้าใจที่ตรงกันกับผู้ที่สนใจ
 
 <img src="./IMG/game-definition.png" align="center">
 
- * `Table of Content - Game Info` : ให้ข้อมูลเกี่ยวกับเกมที่น่าสนใจ ทั้งเกมเก่า-ใหม่ ควรค่าแก่การหามาเล่นสักครั้งในความคิดเห็นของผู้จัดทำ โดยแบ่ง row ตาม platform หลักที่ลงให้เล่นของเกมนั้น และตัวข้อมูลจะประกอบไปด้วย รูปหน้าปกของตัวเกม (Key Visual) , ชื่อเกม , รายละเอียด / คำอธิบายสั้นๆเกี่ยวกับตัวเกม , รูปแบบเกม [ฟรี | เสียเงิน] , ช่องทางการซื้อ / ดาวน์โหลด 
+ * **[ Body ]** - `Table of Content - Game Info` : ให้ข้อมูลเกี่ยวกับเกมที่น่าสนใจ ทั้งเกมเก่า-ใหม่ ควรค่าแก่การหามาเล่นสักครั้งในความคิดเห็นของผู้จัดทำ โดยแบ่ง row ตาม platform หลักที่ลงให้เล่นของเกมนั้น และตัวข้อมูลจะประกอบไปด้วย รูปหน้าปกของตัวเกม (Key Visual) , ชื่อเกม , รายละเอียด / คำอธิบายสั้นๆเกี่ยวกับตัวเกม , รูปแบบเกม [ฟรี | เสียเงิน] , ช่องทางการซื้อ / ดาวน์โหลด 
 พร้อมลิงค์ที่พาไปยังช่องทางดังกล่าว
 
 <img src="./IMG/game-table-1.png" align="center">
@@ -133,11 +133,11 @@ A website that provides information about games and anime that I find interestin
 <img src="./IMG/game-table-2.png" align="center">
 
 
- * `Table of Content - Compatible Platform` : แสดงข้อมูล platform หลักๆว่า เกมที่ได้แนะนำนั้นมีการ port ให้เล่นบน platform ใดบ้าง 
+ * **[ Body ]** - `Table of Content - Compatible Platform` : แสดงข้อมูล platform หลักๆว่า เกมที่ได้แนะนำนั้นมีการ port ให้เล่นบน platform ใดบ้าง 
 
 <img src="./IMG/game-table-3.png" align="center">
 
- * `Content - Game Review` : แสดงข้อมูลรีวิวทั้งหมดที่มีในหวมหมู่ที่เป็นเกม สามารถคลิกเพื่อไปยังหน้าต่างที่ให้ข้อมูลรีวิวเกมนั้นๆได้
+ * **[ Body ]** - `Content - Game Review` : แสดงข้อมูลรีวิวทั้งหมดที่มีในหวมหมู่ที่เป็นเกม สามารถคลิกเพื่อไปยังหน้าต่างที่ให้ข้อมูลรีวิวเกมนั้นๆได้
 
 <img src="./IMG/game-content.png" align="center">
 
@@ -154,7 +154,7 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/game-content-1.png" align="center">
 
-* `Game Review` : เป็นส่วนที่เรียกว่าเป็น `Content Body` หรือ ส่วนของเนื้อหาที่ต้องการนำเสนอในหน้านี้ ประกอบไปด้วย หัวข้อที่นำเสนอ , วันที่เขียนรีวิวนี้ขึ้น , รูปภาพประกอบ , ข้อมูลพื้นฐานเกี่ยวกับตัวเกมที่นำมารีวิว , โลโก้ของสตูดิโอที่ผลิต , ตารางนำเสนอ platform ที่ตัวเกมมีการ port ให้สามารถเล่นได้ และ เข้าสู่เนื้อหาการรีวิว พร้อมรูปภาพประกอบคำอธิบาย
+* **[ Body ]** - `Game Review` : เป็นส่วนที่เรียกว่าเป็น `Content Body` หรือ ส่วนของเนื้อหาที่ต้องการนำเสนอในหน้านี้ ประกอบไปด้วย หัวข้อที่นำเสนอ , วันที่เขียนรีวิวนี้ขึ้น , รูปภาพประกอบ , ข้อมูลพื้นฐานเกี่ยวกับตัวเกมที่นำมารีวิว , โลโก้ของสตูดิโอที่ผลิต , ตารางนำเสนอ platform ที่ตัวเกมมีการ port ให้สามารถเล่นได้ และ เข้าสู่เนื้อหาการรีวิว พร้อมรูปภาพประกอบคำอธิบาย
 
 <img src="./IMG/game-content-2.png" align="center">
 
