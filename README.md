@@ -28,7 +28,7 @@ A website that provides information about games and anime that I find interestin
 
     <img src="./IMG/home-2-page.png" align="center">
     
-  * **`Content Categories`** : สามารถเลือกประเภทของเนื้อหาที่สนใจได้ โดยจะพาไปยังหน้าต่างของ Categories นั้นๆให้
+  * **`Content Categories`** : สามารถเลือกประเภทของเนื้อหาที่สนใจได้ โดยการคลิกที่ตัว Card เพื่อพาไปยังหน้าต่างของ Categories นั้นๆ
 
     <img src="./IMG/home-7-categories-none.png" align="center">
 
@@ -36,7 +36,7 @@ A website that provides information about games and anime that I find interestin
     <img src="./IMG/home-3-categories.png" align="center">
     
     
-  * **`All Content`** : แสดงรายการเนื้อหาทั้งหมดที่มี โดยไม่ได้มีการแยกตามประเภทของเนื้อหา
+  * **`All Content`** : แสดงรายการเนื้อหาทั้งหมดที่มี โดยไม่ได้มีการแยกตามประเภทของเนื้อหา , สามารถเลือกเนื้อหาที่สนใจได้โดยการคลิกที่ตัว Card เพื่อไปยังหน้าต่างของ Content นั้นๆ
 
     <img src="./IMG/home-4-content.png" align="center">  
 
