@@ -1,0 +1,741 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(../image/backgroundanime.jpg);
+    background-attachment: fixed;
+    font-family:'Mitr', sans-serif;
+    margin: 0 ;
+  }
+  h1#contact{
+    color: white;
+    background-color: #3f5bae;
+    box-sizing: border-box;
+    padding: 12px 14px;
+
+  }
+  p#topic{
+    background-color: #feeb10;
+    opacity: 0.8;
+    padding: 20px 5px 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    background-size: 5px;
+    color: #000000 ;
+  }
+
+  ul {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    background-color : #feeb10;
+  }
+  li {
+    float: left;
+    border-right:1px solid #feeb10;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    font-weight: bold;
+    display: block;
+    color: #000000;
+    font-size: large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #3f5bae;
+      color: #fff;
+  }
+
+  .active {
+       background-color: #82a6e0;
+       color: #fff;
+  }
+  /* Style the header */
+  .header {
+    background-color: #3f5bae;
+    text-align: center;
+  }
+  .header#contact {
+    background-color: #3f5bae;
+    text-align: right;
+  }
+
+  .topnavigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  #mainpagenavigator{
+    margin-left: 500px;
+  }
+  .bottomnavigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+div.gallery {
+/*margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+background-color: white;*/
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+border-radius: 20px;
+}
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+font-weight: bold;
+background-color: white;
+border-radius: 0px 0px 20px 20px ;
+}
+div.gallery:hover {
+/*border: 1px solid #777;*/
+background-color: #82a6e0;
+border: 5px solid #3f5bae  ;
+opacity: 0.8;
+width: 500px;
+background-color: #feeb10;
+}
+
+div.relatedgallery {
+/*margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+background-color: white;*/
+margin: 30px 20px 30px 70px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+transition: width 1.5s;
+border-radius: 20px;
+}
+div.relatedgallery2 {
+/*margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+background-color: white;*/
+margin: 30px 20px 30px 10px;
+border: 1px solid #ccc;
+float: left;
+width: 480px;
+transition: width 1.5s;
+border-radius: 20px;
+}
+div.relatedgallery2 img {
+width: 100%;
+height: auto;
+border-radius: 20px 20px 0px 0px;
+}
+
+div.relatedgallery2:hover {
+/*border: 1px solid #777;*/
+background-color: #82a6e0;
+border: 5px solid #3f5bae  ;
+opacity: 0.8;
+width: 500px;
+background-color: #feeb10;
+}
+div.relatedgallery img {
+width: 100%;
+height: auto;
+border-radius: 20px 20px 0px 0px;
+}
+
+div.relatedgallery:hover {
+/*border: 1px solid #777;*/
+background-color: #82a6e0;
+border: 5px solid #3f5bae  ;
+opacity: 0.8;
+width: 500px;
+background-color: #feeb10;
+}
+.content{
+color: black;
+text-align: center;
+background-color:#feeb10 ;
+padding: 4px;
+border: 5px solid #3f5bae  ;
+margin-bottom : 100px;
+}
+.info{
+color: black;
+text-align: center;
+background-color:#feeb10 ;
+padding: 4px;
+padding-top: 30px;
+margin-bottom : 400px;
+border-top:5px solid #82a6e0  ;
+}
+
+.button {
+background-color: #3f5bae; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 24px;
+margin: 4px 2px;
+cursor: pointer;
+font-family:'Mitr', sans-serif;
+border-radius: 4px;
+transition: all 0.5s;
+margin-bottom: -10px;
+margin-top: 20px;
+}
+
+.button1 {width: 49.5%;}
+.button2 {width: 49.5%;}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+.button span.previous:after {
+content: '\00ab';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+table{
+background-color: white;
+border: 3px solid black;
+
+}
+tr{
+border: 3px solid black;
+padding: 5px;
+}
+th{
+border: 3px solid black;
+padding: 5px;
+}
+td{
+border: 3px solid black;
+padding: 5px;
+}
+th#caption{
+background-color: #feeb10;
+padding: 20px;
+font-size: 40px;
+}
+th#foottable{
+background-color: #c9e4fe;
+padding: 20px;
+font-size: 40px;
+}
+
+h1#topic{
+text-align: center;
+margin: 100px 70px 0px;
+font-size: 3em;
+}
+h1.topic{
+text-align: left;
+margin : 70px 200px 30px;
+font-size: 3em;
+}
+h4#description{
+text-align: center;
+color: red;
+}
+.topimage{
+margin: 50px 280px;
+text-align: center;
+}
+.otherimage{
+margin: 0px 200px 0px 140px;
+text-align: center;
+border-radius: 20px;
+}
+.otherimage2{
+text-align: center;
+border-radius: 20px;
+}
+
+.otherimage3{
+border-radius: 20px;
+margin: 0px 200px 0px 90px;
+}
+
+
+.description{
+color: gray;
+text-align: center;
+}
+.infoanime{
+text-align: left;
+margin: 0px 200px 30px;
+font-size: large;
+}
+#related_post{
+text-align: left;
+margin : 70px 500px 30px;
+font-size: 3em;
+}
+.table2 {
+margin: 20px 140px 20px 180px;
+border-collapse: collapse;
+border-spacing: 0;
+width: 75%;
+border: 1px solid #ae943f;
+
+}
+.tr2{
+text-align: center;
+padding: 15px;
+background-color: rgb(250, 212, 44);
+}
+.th2muse{
+text-align: center;
+padding: 10px;
+background-color: #feeb10;
+}
+
+.td2muse{
+text-align: center;
+padding: 10px;
+/*background-color: #feeb10;*/
+background-color: white;
+
+}
+.th2bilibili {
+text-align: center;
+padding: 10px;
+background-color: rgb(251, 255, 5);
+}
+
+.td2bilibili {
+text-align: center;
+padding: 10px;
+/*background-color: rgb(251, 255, 5);*/
+background-color: white;
+}
+.th2iqiyi{
+text-align: center;
+padding: 10px;
+background-color: rgb(255, 160, 176);
+}
+
+.td2iqiyi{
+text-align: center;
+padding: 10px;
+/*background-color: rgb(255, 160, 176);*/
+background-color: white;
+}
+.th2aisplay {
+text-align: center;
+padding: 10px;
+background-color: rgba(255, 214, 221, 0.979);
+}
+.td2aisplay {
+text-align: center;
+padding: 10px;
+/*background-color: rgba(255, 214, 221, 0.979);*/
+background-color: white;
+}
+.th2netflix{
+text-align: center;
+padding: 10px;
+background-color: rgb(70, 160, 70);
+}
+.td2netflix{
+text-align: center;
+padding: 10px;
+/*background-color: rgb(70, 160, 70);*/
+background-color: white;
+}
+.th2viu {
+text-align: center;
+padding: 10px;
+background-color: rgb(152, 230, 159);
+}
+.td2viu {
+text-align: center;
+padding: 10px;
+/*background-color: rgb(152, 230, 159);*/
+background-color: white;
+}
+.th2wetv{
+text-align: center;
+padding: 10px;
+background-color: #62b2fc;
+}
+.td2wetv{
+text-align: center;
+padding: 10px;
+/*background-color: #62b2fc;*/
+background-color: white;
+}
+.th2trueid {
+text-align: center;
+padding: 10px;
+background-color: #9aceff;
+}
+.td2trueid {
+text-align: center;
+padding: 10px;
+/*background-color: #9aceff;*/
+background-color: white;
+}
+.th2flixer {
+text-align: center;
+padding: 10px;
+background-color: #b59aff;
+}
+.td2flixer {
+text-align: center;
+padding: 10px;
+/*background-color: #b59aff;*/
+background-color: white;
+}
+.th2pops {
+text-align: center;
+padding: 10px;
+background-color: #c6bae7;
+}
+.td2pops {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+
+.th2, .td2 {
+text-align: center;
+padding: 15px;
+}
+.th3 {
+text-align: center;
+padding: 15px;
+background-color: white;
+}
+
+.th2:first-child, td2:first-child {
+text-align: left;
+}
+
+.tr2:nth-child(even) {
+background-color: #f2f2f2
+}
+
+.fa-check {
+color: green;
+text-align: center;
+}
+
+.fa-remove {
+color: red;
+text-align: center;
+}
+.checked {
+color: rgba(255, 212, 19, 0.932);
+}
+#bindstudio{
+text-align: center;
+margin: 80px ;
+margin-top: 100px;
+}
+a{
+text-decoration: none;
+}
+.muse{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #fee610;
+border-radius: 20px;
+}
+.iqiyi{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgba(27, 247, 45, 0.938);
+border-radius: 20px;
+color: black;
+}
+.wetv{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #4e8afa;
+border-radius: 20px;
+color: white;
+
+}
+.flixer {
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #e7167f;
+border-radius: 20px;
+color: white;
+}
+.myanimelist {
+text-align: center;
+padding: 5px 10px 5px ;
+background-color: #3877ec;
+border-radius: 20px;
+color: white;
+}
+#relatedpost{
+border-bottom: medium solid #3f5bae;
+margin: 50px 70px 10px 70px;
+padding-bottom: 7px;
+font-size: 2.8em;
+}
+.otherimage3{
+border-radius: 20px;
+margin: 0px 200px 0px 90px;
+}
+.otherimage2{
+border-radius: 20px;
+text-align: center;
+}
+.otherimage{
+  border-radius: 20px;
+  text-align: center;
+  margin: 0px 200px 0px 150px;
+}
+
+.table2 {
+margin: 20px 140px 20px 180px;
+border-collapse: collapse;
+border-spacing: 0;
+width: 75%;
+border: 1px solid #ae943f;
+
+}
+.tr2{
+text-align: center;
+padding: 15px;
+background-color: rgb(250, 212, 44);
+}
+.th2muse{
+text-align: center;
+padding: 10px;
+background-color: #feeb10;
+}
+
+.td2muse{
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2bilibili {
+text-align: center;
+padding: 10px;
+background-color: rgb(251, 255, 5);
+}
+
+.td2bilibili {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2iqiyi{
+text-align: center;
+padding: 10px;
+background-color: rgb(255, 160, 176);
+}
+
+.td2iqiyi{
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2aisplay {
+text-align: center;
+padding: 10px;
+background-color: rgba(255, 214, 221, 0.979);
+}
+.td2aisplay {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2netflix{
+text-align: center;
+padding: 10px;
+background-color: rgb(70, 160, 70);
+}
+.td2netflix{
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2viu {
+text-align: center;
+padding: 10px;
+background-color: rgb(152, 230, 159);
+}
+.td2viu {
+text-align: center;
+padding: 10px;
+background-color:white;
+}
+.th2wetv{
+text-align: center;
+padding: 10px;
+background-color: #62b2fc;
+}
+.td2wetv{
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2trueid {
+text-align: center;
+padding: 10px;
+background-color: #9aceff;
+}
+.td2trueid {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2flixer {
+text-align: center;
+padding: 10px;
+background-color: #b59aff;
+}
+.td2flixer {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2pops {
+text-align: center;
+padding: 10px;
+background-color: #c6bae7;
+}
+.td2pops {
+text-align: center;
+padding: 10px;
+background-color: white;
+}
+.th2, .td2 {
+text-align: center;
+padding: 15px;
+}
+.th3 {
+text-align: center;
+padding: 15px;
+background-color: white;
+}
+
+.th2:first-child, td2:first-child {
+text-align: left;
+}
+
+.tr2:nth-child(even) {
+background-color: #f2f2f2
+}
+
+.fa-check {
+color: green;
+text-align: center;
+}
+
+.fa-remove {
+color: red;
+text-align: center;
+}
+.checked {
+color: rgba(255, 212, 19, 0.932);
+}
+#bitstudio{
+text-align: center;
+margin: 80px ;
+margin-top: 100px;
+}
+a{
+text-decoration: none;
+}
+.viu{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #F2B705;
+border-radius: 20px;
+color: white;
+}
+.pops{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgba(253, 195, 4, 0.938);
+border-radius: 20px;
+color: white;
+}
+.netflix{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgba(0, 0, 0, 0.938);
+border-radius: 20px;
+color: red;
+}
+.bilibili{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: rgb(38, 245, 252);
+border-radius: 20px;
+color: white;
+}
+.youtube{
+text-align: center;
+padding: 3px 10px 3px ;
+background-color: #e7167f;
+border-radius: 20px;
+color: white;
+}
+
