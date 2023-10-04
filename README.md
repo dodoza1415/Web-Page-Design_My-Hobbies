@@ -15,3 +15,6 @@ A website that provides information about games and anime that I find interestin
 </div>
 
 ## User Interface & Features
+
+> [!NOTE]
+> Use Live Server for testing
