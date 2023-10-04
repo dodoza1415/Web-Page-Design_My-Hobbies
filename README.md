@@ -13,3 +13,5 @@ A website that provides information about games and anime that I find interestin
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" width="60" height="55">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" width="60" height="55">
 </div>
+
+## User Interface & Features
