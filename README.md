@@ -17,4 +17,4 @@ A website that provides information about games and anime that I find interestin
 ## User Interface & Features
 
 > [!NOTE]
-> Use Live Server for testing
+> Use Live Server for software testing
