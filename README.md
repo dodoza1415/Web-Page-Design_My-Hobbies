@@ -78,5 +78,29 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-foot-nav.png" align="center">
 
+**2.1 `[ Anime Content Page ] - หน้าแสดงรายละเอียดของเนื้อหาประเภทอนิเมะ`** : สามารถคลิกผ่านหน้าหลักของเนื้อหาประเภท อนิเมะ หรือ ในส่วน All Content ที่หน้า Home ได้เพื่อมายังหน้านี้ ซึ่งเป็นหน้าที่เกี่ยวกับรายละเอียดการ รีวิวเนื้อหาที่เป็นประเภทอนิเมะ ประกอบไปด้วย
+
+* **[ Header ]** - `Banner` ของตัวเว็บไซต์ และ `Navigation Bar` โดยจะกำหนดไว้ที่หน้า อนิเมะ ซึ่งเป็นหน้าหลักต่างหลักของเนื้อหาในปัจจุบัน , สามารถใช้เปลี่ยนไปยังหน้าอื่นๆ และกลับมายังหน้า อนิเมะ ได้
+
+<img src="./IMG/anime-content-1.png" align="center">
+
+* **Anime Review** : เป็นส่วนที่เรียกว่าเป็น `Content Body` หรือ ส่วนของเนื้อหาที่ต้องการนำเสนอในหน้านี้ ประกอบไปด้วย หัวข้อที่นำเสนอ , วันที่เขียนรีวิวนี้ขึ้น , รูปภาพประกอบ , ข้อมูลพื้นฐานเกี่ยวกับตัวอนิเมะที่นำมารีวิว , โลโก้ของสตูดิโอที่ผลิต , ตารางนำเสนอช่องทางการรับชมแบบถูกลิขสิทธิ์ และ เข้าสู่เนื้อหาการรีวิว พร้อมรูปภาพประกอบคำอธิบาย
+
+<img src="./IMG/anime-content-2.png" align="center">
+
+<img src="./IMG/anime-content-3.png" align="center">
+
+<img src="./IMG/anime-content-4.png" align="center">
+
+<img src="./IMG/anime-content-5.png" align="center">
+
+* **[ Footer ]** - `Previous Page Button` คลิกเพื่อกลับไปยังหน้าก่อนหน้าคือ หน้าหลักของเนื้อหาประเภท อนิเมะ และ `Next Page Button` คลิกเพื่อไปยังหน้าถัดไปคือ เนื้อหารีวิวในหมวดหม฿่เดียวกัน , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
+
+<img src="./IMG/anime-content-nav.png" align="center">
+
+* **[ Footer ]** - `Related Post` เป็นการเพิ่มความสะดวกให้แก่ผู้ใช้งาน เพิ่มทางเลือกในการเข้าถึงโดยนำลิงก์ที่ใช้ในการเข้าถึงรีวิวอื่นๆมาแปะไว้ด้านล่างของ `Navigation Bar`
+
+<img src="./IMG/anime-content-related.png" align="center">
+
 > [!NOTE]
 > Testing the software via Live Server, not deploying the project for public access.
