@@ -5,8 +5,8 @@ A website that provides information about games and anime that I find interestin
 ## Software development environment
 
 > Web Page Design
-- Structure the documents and information that will be shown to users as web pages on their browsers by using the HTML language.
-- CSS language is used to style web pages and organize display layouts.
+- Structure the documents and information that will be shown to users as web pages on their browsers by using the `HTML` language.
+- `CSS` language is used to style web pages and organize display layouts.
   
 <br>
 <div align="center">
