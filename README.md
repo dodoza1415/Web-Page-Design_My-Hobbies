@@ -43,12 +43,40 @@ A website that provides information about games and anime that I find interestin
     
     <img src="./IMG/home-6-content-choose.png" align="center">
     
-  * **[ Footer ]** - `Banner` ของตัวเว็บไซต์ และ `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock navigation bar หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page พร้อมกับให้ช่องทางการติดต่อมนรูปแบบที่เป็นลิงค์
+  * **[ Footer ]** - `Banner` ของตัวเว็บไซต์ และ `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor  หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page พร้อมกับให้ช่องทางการติดต่อในรูปแบบที่เป็นลิงก์ทั้ง `Facebook` , `Twitter` และ `Instagram`
 
     <img src="./IMG/home-5-foot.png" align="center">
 
+**2. `[ Anime Main Page ] - หน้าหลักของเนื้อหาประเภทอนิเมะ`** : สามารถคลิกผ่านเมนู อนิเมะ บน Navigation Bar เพื่อมายังหน้านี้ ซึ่งเป็นหน้าเริ่มต้นของเนื้อหาที่เป็นประเภทอนิเมะ ที่จะเป็นการให้ข้อมูลเกี่ยวกับอนิเมะที่น่าสนใจ ณ เวลาที่จัดทำ (Oct 2021) พร้อมทั้งรีวิว อนิเมะต่างๆโดยผู้จัดทำ ในหน้าต่างนี้ จะประกอบไปด้วย
 
+* **[ Header ]** - `Banner` ของตัวเว็บไซต์ และ `Navigation Bar` โดยจะกำหนดไว้ที่หน้า อนิเมะ ซึ่งเป็นหน้าต่างปัจจุบัน , สามารถใช้เปลี่ยนไปยังหน้าอื่นๆ และกลับมายังหน้า อนิเมะ ได้
+* `Banner` ของหน้า อนิเมะ ใช้เพื่อการตกแต่ง
 
+<img src="./IMG/anime-1-page.png" align="center">
+
+ * **`Anime Definition`** : ให้ข้อมูลความหมายของ keyword คำว่า "Anime" เพื่อสร้างความเข้าใจที่ตรงกันกับผู้ที่สนใจ
+
+<img src="./IMG/anime-definition.png" align="center">
+
+ * **`Table of Content - Anime Info`** : ให้ข้อมูลเกี่ยวกับอนิเมะที่น่าสนใจ ซึ่งกำลังฉายอยู่ ณ เวลานั้น (Oct 2021) โดยจะประกอบไปด้วย รูปหน้าปกของตัวอนิเมะ (Key Visual) , ชื่อเรื่อง , เนื้อหาย่อๆ , จำนวนตอน , ช่องทางการรับชมแบบถูกลิขสิทธิ์ พร้อมลิงค์ไปยังช่องทางดังกล่าว และ วัน-เวลาที่ฉายในทุกๆสัปดาห์ , ลิงค์ไปยัง MAL เป็น reference สำหรับหาข้อมูลเพิ่มเติม
+
+<img src="./IMG/anime-table-1.png" align="center">
+
+<img src="./IMG/anime-table-2.png" align="center">
+
+<img src="./IMG/anime-table-3.png" align="center">
+
+ * **`Table of Content - Viewing Path`** : แสดงช่องทางการชมอนิเมะแบบถูกลิขสิทธิ์หลักๆในประเทศไทย เพื่อแสดงให้เห็นว่า อนิเมะ แต่ละเรื่องที่กล่าวมา มีให้รับชมในช่องทางไหน - ช่องทางไหนไม่มีให้รับชม
+
+<img src="./IMG/anime-table-path.png" align="center">
+
+ * **`Content - Anime Review`** : แสดงข้อมูลรีวิวทั้งหมดในหวมหมู่ที่เป็นอนิเมะ สามารถคลิกเพื่อไปยังหน้าต่างๆรีวิวอนิเมะเรื่องนั้นๆได้
+
+<img src="./IMG/anime-content.png" align="center">
+
+  * **[ Footer ]** - Previous Page Button คลิกเพื่อกลับไปยังหน้า Home และ Next Page Button คลิกเพื่อไปยังหน้า Game , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
+
+<img src="./IMG/anime-foot-nav.png" align="center">
 
 > [!NOTE]
 > Testing the software via Live Server, not deploying the project for public access.
