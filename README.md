@@ -58,7 +58,7 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-definition.png" align="center">
 
- * **`Table of Content - Anime Info`** : ให้ข้อมูลเกี่ยวกับอนิเมะที่น่าสนใจ ซึ่งกำลังฉายอยู่ ณ เวลานั้น (Oct 2021) โดยจะประกอบไปด้วย รูปหน้าปกของตัวอนิเมะ (Key Visual) , ชื่อเรื่อง , เนื้อหาย่อๆ , จำนวนตอน , ช่องทางการรับชมแบบถูกลิขสิทธิ์ พร้อมลิงค์ไปยังช่องทางดังกล่าว และ วัน-เวลาที่ฉายในทุกๆสัปดาห์ , ลิงค์ไปยัง MAL เป็น reference สำหรับหาข้อมูลเพิ่มเติม
+ * **`Table of Content - Anime Info`** : ให้ข้อมูลเกี่ยวกับอนิเมะที่น่าสนใจ ซึ่งกำลังฉายอยู่ ณ เวลานั้น (Oct 2021) โดยแบ่ง row ตามวันที่ฉายในสัปดาห์ และตัวข้อมูลจะประกอบไปด้วย รูปหน้าปกของตัวอนิเมะ (Key Visual) , ชื่อเรื่อง , เนื้อหาย่อๆ , จำนวนตอน , ช่องทางการรับชมแบบถูกลิขสิทธิ์ พร้อมลิงค์ไปยังช่องทางดังกล่าว และ วัน-เวลาที่ฉายในทุกๆสัปดาห์ , ลิงค์ไปยัง MAL เป็น reference สำหรับหาข้อมูลเพิ่มเติม
 
 <img src="./IMG/anime-table-1.png" align="center">
 
@@ -66,7 +66,7 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-table-3.png" align="center">
 
- * **`Table of Content - Viewing Path`** : แสดงช่องทางการชมอนิเมะแบบถูกลิขสิทธิ์หลักๆในประเทศไทย เพื่อแสดงให้เห็นว่า อนิเมะ แต่ละเรื่องที่กล่าวมา มีให้รับชมในช่องทางไหน - ช่องทางไหนไม่มีให้รับชม
+ * **`Table of Content - Viewing Path`** : แสดงช่องทางการชมอนิเมะแบบถูกลิขสิทธิ์หลักๆที่มีในประเทศไทย เพื่อแสดงให้เห็นว่า อนิเมะ แต่ละเรื่องที่กล่าวมา มีให้รับชมในช่องทางไหน - ช่องทางไหนไม่มีให้รับชม
 
 <img src="./IMG/anime-table-path.png" align="center">
 
@@ -74,7 +74,7 @@ A website that provides information about games and anime that I find interestin
 
 <img src="./IMG/anime-content.png" align="center">
 
-  * **[ Footer ]** - Previous Page Button คลิกเพื่อกลับไปยังหน้า Home และ Next Page Button คลิกเพื่อไปยังหน้า Game , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
+  * **[ Footer ]** - `Previous Page Button` คลิกเพื่อกลับไปยังหน้าก่อนหน้าคือ หน้า Home และ `Next Page Button` คลิกเพื่อไปยังหน้าถัดไปคือ หน้า Game , `Navigation Bar` ลักษณะเดียวกับด้านบน เพื่อเพิ่มความสะดวกให้กับผู้ใช้ คล้ายกับการ lock ตำแหน่ง navigation bar ไม่ให้เลื่อนตาม cursor หรือ การใช้ปุ่มเพื่อพากลับไปยัง Header ของ Page
 
 <img src="./IMG/anime-foot-nav.png" align="center">
 
